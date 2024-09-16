@@ -1,0 +1,173 @@
+@import "./icons.scss";
+
+@import "./app.scss";
+
+// Dark Theme
+// @import "./bootstrap-dark.scss";
+// @import "./app-dark.scss";
+
+// // RTL Mode
+// @import "./rtl/bootstrap-rtl";
+// @import "./rtl/components-rtl";
+// @import "./rtl/float-rtl";
+// @import "./rtl/general-rtl";
+// @import "./rtl/pages-rtl";
+// @import "./rtl/plugins-rtl";
+// @import "./rtl/spacing-rtl";
+// @import "./rtl/structure-rtl";
+// @import "./rtl/text-rtl";
+
+.react-bootstrap-table-page-btns-ul {
+  margin-bottom: 0px;
+}
+.outline-btn {
+  color: #62c941;
+  background: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: 1.5;
+  border: 1.5px solid #060dbf;
+}
+.outline-btn:hover {
+  background-color: #e6e7f9 !important;
+  border-color: #060dbf !important   ;
+  color: #62c941 !important;
+}
+.white-color {
+  color: white !important;
+}
+
+.ant-btn {
+  line-height: 1.5;
+  padding: 0.47rem 0.75rem;
+  font-weight: 600;
+  height: auto;
+}
+// .ant-btn-default:hover {
+//   background: #050a99 !important;
+//   color: #62c941 !important;
+// }
+// .btn-primary:hover {
+//   background: #050a99 !important;
+//   color: #62c941 !important;
+// }
+.hover-color:hover {
+  background: #050a99 !important;
+  color: #62c941 !important;
+}
+
+.ant-btn-primary:hover {
+  background: #050a99 !important;
+  color: #62c941 !important;
+}
+
+.outline-btn:active {
+  background-color: #cdcff2 !important;
+}
+
+.close {
+  background: transparent;
+  border: 0;
+  font-size: 10px;
+  padding: 1.35rem 1.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  width: 1em;
+  height: 1em;
+  z-index: 2;
+  span {
+    display: none;
+  }
+}
+.rangeslider__fill {
+  background-color: #556ee6 !important;
+}
+.rdw-editor-main {
+  height: 239px;
+}
+.dz-message {
+  text-align: center;
+  margin: 2em 0;
+}
+//Crypto enteries
+.bs-select select {
+  width: auto !important;
+}
+
+// .apexcharts-canvas {
+//   text {
+//     fill: #adb5bd !important;
+//   }
+// }
+
+.input-group-append,
+.input-group-prepend {
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 3;
+    column-count: 3;
+    grid-column-gap: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 24px;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+.steps a.nav-link {
+  background-color: #c3cef8;
+  color: #3b5de7;
+}
+.steps a.nav-link .number {
+  border-color: #3b5de7;
+}
+.pagination .pagination {
+  margin-bottom: 0px;
+}
+
+// kanban board
+// .react-kanban-column {
+//   height: 100%;
+//   min-height: 28px;
+//   display: inline-block;
+//   padding: 15px;
+//   border-radius: 2px;
+//   background-color: rgb(238, 238, 238);
+//   margin: 5px;
+//   vertical-align: top;
+// }
+
+.fcYNFc,
+.sc-AxmLO.gmtmqV {
+  margin: 0 20px 0 0 !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f4395;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
